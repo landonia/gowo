@@ -33,6 +33,7 @@ method which will block until it receives the result.
 
 This is a simple example that shows how it can be used within an application.
 
+```go
 	package main
 
 	import (
@@ -66,6 +67,7 @@ This is a simple example that shows how it can be used within an application.
 		 exit, err := pool.Stop()
 		 <-exit
   	}
+```
 
 ## Example
 
