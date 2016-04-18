@@ -17,13 +17,21 @@ to ensure the work is more evenly spread.
 
 ## Maturity
 
-Complete but requires tests to be finished
+Complete but requires the tests to be truly finished (coming soon)
 
 ## Installation
 
 simply run `go get github.com/landonia/gowo`
 
 ## Use as Library
+
+I have created the library to be as simple as possible, but even with this it
+can be very flexible and allows you to customise to suit your requirements.
+Ideally, you will write your application using the asynchronous method, but
+if this cannot be achieved with an existing pattern you can use the `pool.SendSAync()`
+method which will block until it receives the result.
+
+This is a simple example that shows how it can be used within an application.
 
 	package main
 
