@@ -37,7 +37,7 @@ This is a simple example that shows how it can be used within an application.
 	package main
 
 	import (
-  		"github.com/landonia/goat"
+  		"github.com/landonia/gowo"
   	)
 
   	func main() {
