@@ -1,4 +1,5 @@
 # gowo
+[![Go Report Card](https://goreportcard.com/badge/github.com/landonia/gowo)](https://goreportcard.com/report/github.com/landonia/gowo)
 
 A simple but effective worker pool.
 
